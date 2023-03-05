@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
+
+/*
+font-family: 'Old Standard TT', serif;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+/*
+font-family: 'Mukta', sans-serif;
+*/
+
+.index_div{
+    width: (100%-100px);
+    height: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+.index_title{
+    color: #e8e0cd;
+    background-image: -webkit-linear-gradient(0deg, #e8e0cd 20%,#2e2d29 45%,#ffc114 60%,#4c4944 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.index_description{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 2px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+}
+
+.index_link{
+    color:black;
+    background-color: #ffc114;
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Old Standard TT', serif;
+    word-spacing: 5px;
+}
+
+.index_link:hover{
+    color: #4c4944;
+}
+
+.index_leaderboard_title{
+    margin-top: 100px;
+    color: #ffc114;
+    font-size: 40px;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 1px;
+}
+
+
+
+table.GeneratedTable {
+    text-align: center;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 3px;
+    border-color: #ffc114;
+    border-style: solid;
+    color: #000000;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+@media (min-width:0px) and (max-width:700px) {
+    .index_div{
+        width: (100%-10px);
+        padding: 50px 5px;
+    }
+    table.GeneratedTable {
+        width: 100%;
+    }
+}
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 3px;
+    border-color: #ffc114;
+    border-style: solid;
+    padding: 7px;
+    font-size: 22px;
+    width: 33.3% ;
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #ffc114;
+  }
+
+  .index_api_a{
+    font-size: 22px;
+    color: #ffc114;
+    text-decoration: none;
+  }
+
+  .index_api_a:hover{
+    text-decoration:underline;
+  }
+
+  .index_api_p{
+    font-size: 21px;
+    text-align: center;
+  }

@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+/*
+font-family: 'Mukta', sans-serif;
+*/
+
+.game_div{
+    width: (100%-100px);
+    height: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.game_inner_div{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.game_title{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.game_input{
+    margin: 10px;
+    border: 5px solid #4c4944;
+    border-radius: 50px;
+    width: 200px;
+    height: 15px;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.game_btn{
+    background-color: #e8e0cd;
+    border-radius: 20px;
+    font-size: 23px;
+    padding: 10px 25px;
+    margin: 10px;
+}
+
+.game_btn:hover{
+    background-color: white;
+}
+
+.game_name{
+    font-size: 25px;
+    margin: 1px;
+}
+
+.game_currentscore{
+    font-size: 25px;
+    margin: 1px;
+}
+
+
+.questionbox_div{
+    margin: 20px;
+    width: 100%;
+}
+
+.questionbox_question{
+    height: 80px;
+    font-size: 35px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.questionbox_btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin: 20px;
+    width: 250px;
+}
+
+.questionbox_options{
+    font-size: 25px;
+    margin: 10px;
+    text-align: start;
+}
+
+.questionbox_center{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.game_inner_div_addon{
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.game_link{
+    color:black;
+    background-color: #ffc114;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.game_link:hover{
+    color: #4c4944;
+}
+
+.questionbox_time{
+    font-size: 25px;
+    color: red;
+}
+
+.game_link_btn{
+    margin-top: 30px;
+    border: 0px;
+    font-family: 'Mukta', sans-serif;
+}
+
+@media (min-width:000px) and (max-width:500px) {
+
+    .questionbox_time{
+        font-size: 35px;
+    }
+
+    .game_div{
+        width: (100%-60px);
+        padding: 0px 30px;
+    }
+    
+    .game_inner_div{
+        padding: 30px;
+    }
+
+    .game_title{
+        font-size: 35px;
+    }
+
+    .game_input{
+        width: 150px;
+        padding: 13px;
+        font-size: 18px;
+    }
+
+    .game_btn{
+        font-size: 20px;
+        padding: 7px 20px;
+    }
+
+    .game_name{
+        font-size: 20px;
+    }
+    
+    .game_currentscore{
+        font-size: 20px;
+    }
+    
+    .questionbox_div{
+        margin: 10px;
+    }
+    
+    .questionbox_question{
+        font-size: 25px;
+        margin: 7px;
+        height: 50px;
+        line-height: 25px;
+    }
+    
+    .questionbox_btn{
+        font-size: 15px;
+        padding: 7px 20px;
+        margin: 5px;
+    }
+    
+    .questionbox_options{
+        font-size: 20px;
+        margin: 4px;
+    }
+    
+    .questionbox_center{
+        margin-top: 28px;
+    }
+    
+    .game_inner_div_addon{
+        width: 90%;
+    }
+}
+

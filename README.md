@@ -1,6 +1,6 @@
 # Movie_Mystery
 
-This Repository is of Frontend for Movie Quiz website Build on RemixJS.
+This repository contains the frontend code for a Movie Quiz website built on RemixJS. It is hosted on Netlify, a cloud platform for building, deploying, and managing modern web projects. This repository is part of a larger project that also includes the backend code and a database. The website includes a quiz feature that allows users to test their knowledge of movies. The code in this repository contains various components and functions that power the quiz on the website, including the user interface, questions, and answers. It also includes code for the user authentication system, the leaderboard, and other features that make the website interactive and engaging.
 
 Frontend Link : https://moviemystery.netlify.app/
 
